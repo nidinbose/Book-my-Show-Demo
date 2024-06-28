@@ -1,0 +1,25 @@
+.body,HTML{
+   background-image: url(https://images.squarespace-cdn.com/content/v1/5f99023f01283b090c45603e/1657636234158-82C1FBLBWO40BDJAAOPT/unsplash-image--5rA4DRrEXU.jpg); 
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    column-gap: 3%;
+    flex-direction: column;
+    /* text-align: center; */
+    
+
+    
+}
+
+.mb-3 input{
+    width: 20vw;
+    height: 2vw;
+
+}
+.mb-3{
+    display: block;
+}
