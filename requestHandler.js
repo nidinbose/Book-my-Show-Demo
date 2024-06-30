@@ -8,9 +8,9 @@ const {sign} = pkg
 export async function addmovie(req,res){
     try{
         console.log(req.body);
-        const { name,category,Likes,profile } = req.body;
+        const { name,category,Likes,profile,banner } = req.body;
         await movieSchema 
-        .create({name,category,Likes,profile,})
+        .create({name,category,Likes,profile,banner,})
         .then(()=>{
             res.status(201).send({msg:"successully created"});
         })

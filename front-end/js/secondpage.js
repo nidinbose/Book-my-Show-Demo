@@ -16,7 +16,7 @@ async function getforedit() {
    let str =``;
 
     str=`   <div class="edit" id="v3">
-            <img src="" alt=""  style="width: 100%;">
+            <img src="${data.banner}" alt=""  style="width: 100%;">
 
 
              <div class="bagp">

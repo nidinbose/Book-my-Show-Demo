@@ -3,7 +3,7 @@ async function addmovie(){
     const name=document.getElementById('name').value;
     const category=document.getElementById('category').value;
     const Likes=document.getElementById('Likes').value;
-   
+
 
     
     const res=await fetch('http://localhost:4008/api/add', {
@@ -11,7 +11,7 @@ async function addmovie(){
     
     headers: {'Content-Type': 'application/json'},
     
-    body: JSON.stringify({name, category,Likes,profile})
+    body: JSON.stringify({name, category,Likes,profile,banner})
     
     })
     
@@ -28,11 +28,19 @@ async function addmovie(){
 
 
     let profile=""
+    let banner=""
 
 document.getElementById("profile").addEventListener('change',async(e)=>{
     profile=await convertToBase64(document.getElementById('profile').files[0])
 document.getElementById('img').src=profile
 console.log(profile);
+})
+
+
+document.getElementById("banner").addEventListener('change',async(e)=>{
+    banner=await convertToBase64(document.getElementById('banner').files[0])
+document.getElementById('bg').src=banner
+console.log(banner);
 })
 
 

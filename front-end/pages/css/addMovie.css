@@ -1,5 +1,6 @@
 .body,HTML{
-   background-image: url(https://images.squarespace-cdn.com/content/v1/5f99023f01283b090c45603e/1657636234158-82C1FBLBWO40BDJAAOPT/unsplash-image--5rA4DRrEXU.jpg); 
+   background-image: url(https://images.squarespace-cdn.com/content/v1/5f99023f01283b090c45603e/1657636234158-82C1FBLBWO40BDJAAOPT/unsplash-image--5rA4DRrEXU.jpg);
+   padding-bottom: 5%; 
 }
 
 .card {
@@ -23,3 +24,32 @@
 .mb-3{
     display: block;
 }
+
+.cardp4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 10%;
+    margin-left:25% ;
+    background-color: aliceblue;
+    width: 50%;
+    height: 70vh;
+    border-radius: 15px;
+    box-shadow: 22px;
+    position: relative;
+
+
+}
+.cardp4 h3{
+    position: absolute;
+    top: 4%;
+    font-weight: 600;
+    color: black;
+   
+}
+
+    .m1 input{
+     
+    }
+   

@@ -682,6 +682,7 @@ color:white;
   margin-top: 3%;
   margin-left: 5%;
   margin-right: 5%;
+  
 
 }
 .container2{
@@ -701,8 +702,10 @@ color:white;
 
 
 .section-title {
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 25px;
+    margin-bottom: 3px;
+    margin-left: 10%;
+    /* padding-bottom: 2%; */
 }
 .section-title2 {
   padding-top: 5%;
@@ -720,6 +723,8 @@ color:white;
     overflow-y: hidden;
     gap: 30px;
     height: 450px;
+    margin-left: 10%;
+    padding-bottom: 3%;
 
 }
 .movies3 {
@@ -754,7 +759,7 @@ width: 100%;
 
 }
 .cardimage{
-  height: 70%;
+  height: 45vh;
 }
 .cardimage img{
   height: 100%;
@@ -767,11 +772,14 @@ width: 100%;
 .movie-details {
   height: 30%;
     padding: 15px;
+    padding-bottom: 5%;
 }
 
 .movie-title {
     font-size: 18px;
     margin: 10px 0 5px;
+    padding-bottom:3% ;
+    color: black;
 }
 .movie-info {
     font-size: 14px;
